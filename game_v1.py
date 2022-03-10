@@ -1,5 +1,5 @@
-"""Игра угадай число
-Компьтер сам загадывает и отгадывает число"""
+"""Игра 'Угадай число' - v.1
+(компьтер сам загадывает и отгадывает число)"""
 
 from itertools import count
 import numpy as np
@@ -22,4 +22,5 @@ def random_predict(number:int=1) -> int:
         if number == predict_number:
             break
     return(count)
+
 print(f'Количество попыток: {random_predict()}')

@@ -1,7 +1,11 @@
+""" Игра 'Угадай число' - v.2
+(за сколько попыток в среднем алгоритм угадывает число)"""
+
 import numpy as np
 from game_v1 import random_predict
+
 def score_game(random_predict) -> int:
-    """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
+    """За какое количество попыток в среднем из 1000 подходов алгоритм угадывает число
 
     Args:
         random_predict ([type]): функция угадывания
@@ -10,10 +14,9 @@ def score_game(random_predict) -> int:
         int: среднее количество попыток
     """
 
-   
     count_ls = [] # список для сохранения количества попыток
     np.random.seed(1) # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000)) # загадали список чисел
+    random_array = np.random.randint(1, 101, size=(1000)) # список чисел рандомных чисел
 
     for number in random_array:
         count_ls.append(random_predict(number))

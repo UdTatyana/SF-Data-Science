@@ -1,8 +1,9 @@
-""" Игра угадай число"""
+""" Игра 'Угадай число'
+"""
 
 from ast import While
 from itertools import count
-from tkinter import W
+
 import numpy as np # импорт библиотеки NumPy
 number = np.random.randint(1, 101) # загадываем число
 count = 0 # счетчик попыток
