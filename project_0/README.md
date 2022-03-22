@@ -1,7 +1,7 @@
 # Проект 0. Угадай число
 
 ## Оглавление
-[1. Описание проекта](https://github.com/UdTatyana/SF-Data-Science/tree/main/project_0)
+[1. Описание проекта](https://github.com/UdTatyana/SF-Data-Science/tree/main/project_0#описание-проекта)
 [2. Какой кейс решаем?](_)
 [3. Краткая информация о данных](_)
 [4. Этапы работы над проектом]()
