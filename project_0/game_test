@@ -30,6 +30,5 @@ def min_random_predict(number:int=1) -> int:
             max_predict = predict
 
     return count
-
 print(f'Число {number} угадано за {count} попыток')
      
