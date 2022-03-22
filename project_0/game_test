@@ -2,8 +2,11 @@
 Компьютер сам загадывает и угадывает число 
 за минимальное количество попыток (меньше 20)
 """
+
 import numpy as np
-import game_v2
+import from game_v2
+
+number = np.random.randint(1, 101) # диапазон загаданного числа
 
 def min_random_predict(number:int=1) -> int:
     """За какое минимальное количество попыток компьютер угадывает число
@@ -13,22 +16,26 @@ def min_random_predict(number:int=1) -> int:
 
     Returns: минимальное количество попыток
     """
-    count = 0 # счетчик попыток
-    number = np.random.randint(1, 101) # диапазон загаданного числа
+    
+    count = 0
     min_predict = 0
     max_predict = 100
-   
-    while True:
-        predict = round((min_predict + max_predict)/2)
+    if number == 50:
+        count = 1
+        print(f'Число 50 угадано за 1 попытку')
+
+    while number != 50:
         count += 1
+        predict = round((min_predict + max_predict)/2)
 
-        if numder == predict:
-            break
+        if number < predict:
+            max_predict == predict
         elif number > predict:
-            min_predict = predict
-        elif number < predict:
-            max_predict = predict
-
+            min_predict == predict
+        elif number == predict_numder:    
+            break
+    
     return count
-print(f'Число {number} угадано за {count} попыток')
+print(f'Число {number} угадано за {min_random_predict()} попыток')
+
      
