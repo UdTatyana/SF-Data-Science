@@ -1,0 +1,35 @@
+"""Игра угадай число.
+Компьютер сам загадывает и угадывает число 
+за минимальное количество попыток (меньше 20)
+"""
+import numpy as np
+import game_v2
+
+def min_random_predict(number:int=1) -> int:
+    """За какое минимальное количество попыток компьютер угадывает число
+
+    Args:
+        number (int, optional): Загаданное число. Defaults to 1
+
+    Returns: минимальное количество попыток
+    """
+    count = 0 # счетчик попыток
+    number = np.random.randint(1, 101) # диапазон загаданного числа
+    min_predict = 0
+    max_predict = 100
+   
+    while True:
+        predict = round((min_predict + max_predict)/2)
+        count += 1
+
+        if numder == predict:
+            break
+        elif number > predict:
+            min_predict = predict
+        elif number < predict:
+            max_predict = predict
+
+    return count
+
+print(f'Число {number} угадано за {count} попыток')
+     
