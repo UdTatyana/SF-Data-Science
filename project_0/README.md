@@ -69,12 +69,15 @@
 
 ### Результат
 1. Создание игры, где пользователь угадывает целое случайное число от 0 до 100, загаданное компьютером; подсчитывается количество попыток.
+
 Игра № 1: https://github.com/UdTatyana/SF-Data-Science/blob/main/project_0/game_v1.py
 
 2. Создание игры, где компьютер загадывает целое случайное число от 0 до 100 и сам его отгадывает; подсчитывается среднее количество попыток при 1000 повторениях.
+
 Игра № 2: https://github.com/UdTatyana/SF-Data-Science/blob/main/project_0/game_v1.py
 
 3. Создание игры, где компьютер загадывает целое случайное число от 0 до 100 и сам его отгадывает за минимальное количество попыток (меньше 20).
+
 Игра № 3: https://github.com/UdTatyana/SF-Data-Science/blob/main/project_0/game_v3.py
 
 :arrow_up:[к оглавлению](https://github.com/UdTatyana/SF-Data-Science/tree/main/project_0#оглавление)
