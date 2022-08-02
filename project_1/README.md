@@ -11,7 +11,7 @@
 
 [5. Результат](https://github.com/UdTatyana/SF-Data-Science/tree/farmaster/project_1#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)
 
-[6. Выводы] (https://github.com/UdTatyana/SF-Data-Science/tree/farmaster/project_1#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
+[6. Выводы](https://github.com/UdTatyana/SF-Data-Science/tree/farmaster/project_1#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 ### Описание проекта
 Суть проекта - предподготовка (преобразование, исследование, очистка) данных для подачи в модель, которая автоматически определяет примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе.
